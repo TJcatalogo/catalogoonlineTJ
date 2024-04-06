@@ -1,0 +1,147 @@
+body {
+    font-family: Arial, sans-serif;
+    color: #333;
+    margin: 0;
+    padding: 0;
+    color: #333;
+    margin: 0;
+    padding: 0;
+}
+
+.imagem-pergunta{
+    margin-bottom: 20px;
+}
+
+.container {
+    max-width: 800px;
+    margin: 50px auto;
+    background-color: #dde8ff;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    padding: 30px;
+}
+
+.box {
+    background-color: #fff;
+    border-radius: 10px;
+    padding: 20px;
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+h1 {
+    text-align: center;
+
+}
+
+h6{
+    text-align: center;
+    margin-top: -20px;
+    font-weight: 100 ;
+}
+
+.pergunta {
+    margin-bottom: 20px;
+}
+
+.pergunta p {
+    font-size: 18px;
+    margin-bottom: 10px;
+}
+
+.resposta {
+    display: flex;
+    align-items: center;
+    margin-bottom: 10px;
+}
+
+.resposta label {
+    margin-right: 10px;
+    font-size: 16px;
+}
+
+input[type="text"] {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+.box__botao{
+    margin-bottom: -35px;
+}
+
+button {
+    margin-top: 10px;
+    margin-left: 5px;
+    width: 100px;
+    padding: 12px;
+    background-color: #6e9fff;
+    color: white;
+    border: none;
+    border-radius: 25px;
+    cursor: pointer;
+    font-size: 16px;
+    transition: background-color 0.3s ease;
+}
+
+a{
+    color: #fff;
+    text-decoration: none;
+}
+
+button:hover {
+    background-color: #89b7ff;
+}
+
+.player{
+    width: 200px;
+}
+
+details{
+    margin-top: 15px;
+}
+
+.box__foto{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 10px;
+}
+
+.box__logo{
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    grid-gap: 10px;
+}
+
+.logo{
+    box-shadow: -1px -1px 17px 1px rgba(138,138,138,0.75);
+    -webkit-box-shadow: -1px -1px 17px 1px rgba(138,138,138,0.75);
+    -moz-box-shadow: -1px -1px 17px 1px rgba(138,138,138,0.75);
+    padding: 10px;
+    border-radius: 30px ;
+}
+
+h3{
+    text-align: center;
+    margin-top: -30px;
+    margin-bottom: 0px;
+}
+
+.box__redes{
+
+    align-items: center;
+    justify-content: center;
+}
+
+.redes{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 10px;
+}
+
+.titulo{
+    margin-bottom: 10px;
+}
